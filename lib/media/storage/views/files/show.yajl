@@ -1,0 +1,6 @@
+json = {
+  id:   item.id,
+  url:  url(item.id),
+  download: url([item.id,"download"].join("/")),
+  name: item.name
+}
